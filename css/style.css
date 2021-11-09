@@ -1,0 +1,28 @@
+:root {
+  --header-foot-bg-color: rgb(44, 62, 80);
+  --main-bg-color-green: rgb(26, 188, 156);
+  --footer-bg-color:  rgb(58, 84, 109);
+}
+
+div.row > div {
+  height: 50%;
+  border: 1px solid black;
+}
+/* header */
+
+header {
+  background-color: var(--header-foot-bg-color);
+  height: 80px;
+}
+header.container-fluid div.container {
+  background-color: red;
+  height: 100%;
+}
+div.container div.row {
+  height: 100%;
+  padding: 0.5em;
+}
+header div.blue-square-test {
+  background-color: blue;
+  height: 100%;
+}
