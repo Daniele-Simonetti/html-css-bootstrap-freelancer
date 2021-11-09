@@ -77,3 +77,35 @@ div.black {
 main section.about {
   background-color: var(--main-bg-color-green);
 }
+
+.big-green {
+  background-color: yellowgreen;
+  height: 200px;
+  width: 100%;
+}
+
+/* contact me */
+.name {
+  height: 50px;
+  border-bottom: 1px solid red;
+  background-color: violet;
+}
+.email {
+  height: 50px;
+  border-bottom: 1px solid red;
+  background-color: crimson;
+}
+.number {
+  height: 50px;
+  border-bottom: 1px solid red;
+  background-color: chocolate;
+}
+.mex {
+  height: 50px;
+  background-color: blueviolet;
+}
+.small-black {
+  width: 100%;
+  background-color: black;
+  height: 50px;
+}
