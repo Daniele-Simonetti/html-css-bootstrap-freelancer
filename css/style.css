@@ -26,9 +26,29 @@ main section.jumbotron {
   background-color: var(--main-bg-color-green);
 }
 
-div.square-test {
-  height: 540px;
-  width: 540px;
+.circle-red {
+  width: 50px;
+  height: 50px;
   background-color: red;
-  margin: 2em 0;
 }
+.fake-h1 {
+  width: 90%;
+  height: 30px;
+  background-color: blue;
+}
+.fake-decoration {
+  width: 80%;
+  height: 10px;
+  background-color: black;
+}
+.fake-p {
+  width: 100%;
+  height: 25px;
+  background-color: white;
+}
+
+div.row > div > div {
+  margin: 1em 0;
+}
+
+
