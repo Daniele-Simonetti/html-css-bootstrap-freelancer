@@ -26,3 +26,10 @@ div.container div.row {
 main section.jumbotron {
   background-color: var(--main-bg-color-green);
 }
+
+div.square-test {
+  height: 540px;
+  width: 540px;
+  background-color: red;
+  margin: 2em 0;
+}
