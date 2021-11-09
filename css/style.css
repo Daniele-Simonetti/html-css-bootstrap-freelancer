@@ -109,3 +109,19 @@ main section.about {
   background-color: black;
   height: 50px;
 }
+
+/* footer */
+footer div.footer-navbar {
+  background-color: var(--footer-bg-color);
+}
+footer div.copyright {
+  background-color: var(--header-foot-bg-color);
+}
+div.white {
+  height: 140px;
+  background-color: white;
+}
+div.end-footer {
+  background-color: white;
+  height: 10px;
+}
