@@ -4,9 +4,10 @@
   --footer-bg-color:  rgb(58, 84, 109);
 }
 
-div.row > div {
+header div.row > div {
   height: 50%;
   border: 1px solid black;
+  background-color: blue;
 }
 /* header */
 
@@ -15,14 +16,10 @@ header {
   height: 80px;
 }
 header.container-fluid div.container {
-  background-color: red;
   height: 100%;
 }
 div.container div.row {
   height: 100%;
   padding: 0.5em;
 }
-header div.blue-square-test {
-  background-color: blue;
-  height: 100%;
-}
+
