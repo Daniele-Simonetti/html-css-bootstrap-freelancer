@@ -2,22 +2,51 @@
   --header-foot-bg-color: rgb(44, 62, 80);
   --main-bg-color-green: rgb(26, 188, 156);
   --footer-bg-color:  rgb(58, 84, 109);
+  --green: rgb(26, 188, 156);
 }
 
-/* header */
-div.blue-header  {
-  height: 50px;
-  border: 1px solid black;
-  background-color: blue;
+a {
+  text-decoration: none;
+  color: white;
 }
+/* header */
 header {
   background-color: var(--header-foot-bg-color);
-  height: 80px;
-}
-header.container-fluid div.row {
-  height: 100%;
+  color: white;
 }
 
+header ul.nav-header li:hover a {
+  color: var(--green);
+}
+
+header div.row div.bar-icon i {
+  color: lightgray;
+  font-size: 1.2em;
+  padding: 0.5em 0.8em;
+  border: 1px solid white;
+  border-radius: 10px;
+
+}
+
+@media screen and (max-width: 576px) {
+  header div.row div > h1 {
+    font-size: 1.3em;
+  }
+  header div.row ul.nav-header {
+    font-size: 0.6em;
+  }
+  header div:first-child {
+    
+  }
+}
+@media screen and (min-width: 577px) {
+  header div.row div > h1 {
+    font-size: 1.5em;
+  }
+  header div.row ul.nav-header {
+    font-size: 0.8em;
+  }
+}
 /* main */
 /* jumbo */
 main section.jumbotron {
