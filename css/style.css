@@ -187,15 +187,21 @@ main section.contact-me a.fake-btn-end {
 /* footer */
 footer div.footer-top {
   background-color: var(--footer-bg-color);
+  color: white;
 }
-footer div.copyright {
+
+footer div.footer-top ul.nav-footer li  {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+footer div.footer-top ul.nav-footer li a i {
+  margin: 1em 1.2em;
+  font-size: 0.6em;
+}
+span.green-text {
+ color: var(--green);
+}
+footer div.footer-bottom {
   background-color: var(--header-foot-bg-color);
-}
-div.white {
-  height: 140px;
-  background-color: white;
-}
-div.footer-bottom {
-  background-color: white;
-  height: 10px;
+  color: white;
 }
