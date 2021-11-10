@@ -7,6 +7,10 @@
 
 
 /* general rules */
+main section h2 {
+  font-size: 3em;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -82,15 +86,13 @@ header div.row div.bar-icon i {
 main section.jumbotron {
   background-color: var(--main-bg-color-green);
   color: white;
+  padding-top: 3em;
 }
 
 main section.jumbotron img.avatar {
   width: 20%;
 }
 
-main section.jumbotron h2 {
-  font-size: 3em;
-}
 
 main section.jumbotron div.col-12 > * {
   margin-top: 0.5em;
@@ -131,16 +133,35 @@ main section.portfolio img {
   border-radius: 10px;
 }
 
+/* main section.portfolio div.position-relative i {
+  color: white;
+  font-size: 2.5em;
+  background-color: var(--main-bg-color-green);
+  display: none;
+} */
+
+/* main section.portfolio div img:hover  {
+  cursor: pointer;
+  opacity: 0.5;
+} */
+
+/* main section.portfolio div img:hover i {
+  display: block;
+} */
+
+
+
 /* about */
 main section.about {
   background-color: var(--main-bg-color-green);
+  color: white;
+}
+main section.about a.fake-btn {
+  border: 1px solid white;
+  padding: 0.5em;
+  border-radius: 5px;
 }
 
-.big-green {
-  background-color: yellowgreen;
-  height: 200px;
-  width: 100%;
-}
 
 /* contact me */
 .name {
