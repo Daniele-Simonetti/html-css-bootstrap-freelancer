@@ -27,22 +27,9 @@ main section.jumbotron {
   width: 50px;
   height: 50px;
   background-color: red;
+  display: inline-block;
 }
-.fake-h1 {
-  width: 90%;
-  height: 30px;
-  background-color: blue;
-}
-.fake-decoration {
-  width: 80%;
-  height: 10px;
-  background-color: black;
-}
-.fake-p {
-  width: 100%;
-  height: 25px;
-  background-color: white;
-}
+
 
 main section.jumbotron div.row > div > div {
   margin: 1em 0;
@@ -111,7 +98,7 @@ main section.about {
 }
 
 /* footer */
-footer div.footer-navbar {
+footer div.footer-top {
   background-color: var(--footer-bg-color);
 }
 footer div.copyright {
@@ -121,7 +108,7 @@ div.white {
   height: 140px;
   background-color: white;
 }
-div.end-footer {
+div.footer-bottom {
   background-color: white;
   height: 10px;
 }
