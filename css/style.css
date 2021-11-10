@@ -5,9 +5,38 @@
   --green: rgb(26, 188, 156);
 }
 
+
+/* general rules */
 a {
   text-decoration: none;
   color: white;
+}
+
+main section div.star-white i,
+main section div.star-black i {
+  font-size: 1.5em;
+  margin: 0 0.8em;
+}
+
+main section div.star-white::before,
+main section div.star-white::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  border: 1.5px solid white;
+  background-color: white;
+  width: 15%;
+  margin-bottom: 5px;
+}
+main section div.star-black::before,
+main section div.star-black::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  border: 1.5px solid black;
+  background-color: black;
+  width: 15%;
+  margin-bottom: 5px;
 }
 /* header */
 header {
@@ -46,6 +75,8 @@ header div.row div.bar-icon i {
     font-size: 0.8em;
   }
 }
+
+
 /* main */
 /* jumbo */
 main section.jumbotron {
@@ -61,25 +92,10 @@ main section.jumbotron h2 {
   font-size: 3em;
 }
 
-main section.jumbotron div.star i {
-  font-size: 1.5em;
-  margin: 0 0.8em;
-}
-
 main section.jumbotron div.col-12 > * {
   margin-top: 0.5em;
 }
 
-main section.jumbotron div.star::before,
-main section.jumbotron div.star::after {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  border: 1.5px solid white;
-  background-color: white;
-  width: 15%;
-  margin-bottom: 5px;
-}
 ul.nav-jumbo li.before-hr::before {
   content: "";
   display: inline-block;
@@ -99,29 +115,20 @@ ul.nav-jumbo li.before-hr::before {
     width: 40%;
   }
 }
+
+
 /* portfolio */
-div.red {
-  background-color: red;
-  width: 100%;
-  height: 5px;
-  /* margin-top: 3em; */
-}
-div.decoration {
-  width: 100%;
-  height: 5px;
-  background-color: yellow;
-  margin-top: 2em;
+main section.portfolio {
+  color: black;
 }
 
-div.green {
-  background-color: green;
-  width: 100%;
-  height: 200px;
+main section.portfolio div.star-black {
+  margin-bottom: 1em;
 }
-div.black {
-  background-color: black;
+
+main section.portfolio img {
   width: 100%;
-  height: 200px;
+  border-radius: 10px;
 }
 
 /* about */
