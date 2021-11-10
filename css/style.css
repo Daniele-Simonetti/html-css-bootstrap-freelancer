@@ -25,7 +25,6 @@ header div.row div.bar-icon i {
   padding: 0.5em 0.8em;
   border: 1px solid white;
   border-radius: 10px;
-
 }
 
 @media screen and (max-width: 576px) {
@@ -35,8 +34,8 @@ header div.row div.bar-icon i {
   header div.row ul.nav-header {
     font-size: 0.6em;
   }
-  header div:first-child {
-    
+  header div.row > div {
+    margin: 1em 0;
   }
 }
 @media screen and (min-width: 577px) {
