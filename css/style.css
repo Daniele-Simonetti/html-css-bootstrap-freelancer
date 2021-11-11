@@ -5,6 +5,10 @@
   --green: rgb(26, 188, 156);
 }
 
+body {
+  font-size: 100;
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* general rules */
 main section h2 {
@@ -46,6 +50,10 @@ main section div.star-black::after {
 header {
   background-color: var(--header-foot-bg-color);
   color: white;
+}
+
+header h1 {
+  font-weight: bold;
 }
 
 header ul.nav-header li:hover a {
